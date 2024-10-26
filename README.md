@@ -8,6 +8,10 @@
 
 + Extensive experiments demonstrate the effectiveness of our approach on in-domain and cross-domain scenarios, and it even outperforms ICL using human-annotated demonstrations.
 
+<p align="center">
+  <img src="./asset/dawnicl.pdf" width="75%" height="75% title="The overview of DAWN-ICL" alt="">
+</p>
+
 ## 🚀 Quick Start
 
 ### Requirements
@@ -20,4 +24,4 @@
 
 ### Download Models
 
-Download models from huggingface, open the src/utils.py file, and update the directory paths in lines 34-41.
+Download models from huggingface, open the src/utils.py file and update the directory paths in lines 34-41.
