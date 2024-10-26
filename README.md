@@ -19,3 +19,5 @@
 - openai==1.35.14
 
 ### Download Models
+
+Download models from huggingface, open the src/utils.py file, and update the directory paths in lines 34-41.
