@@ -48,3 +48,9 @@ You can get the results of our method by running the following command
 ```bash
 bash run_dawn_icl.sh
 ```
+
+## 🌟 Results
+
+<p align="center">
+  <img src="./assets/result.png" width="75%" height="75% title="The overview of DAWN-ICL" alt="">
+</p>
