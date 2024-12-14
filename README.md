@@ -35,14 +35,16 @@ Download models from huggingface, open the src/utils.py file and update the dire
 + select_strategy: the demonstration selection strategy of in-context learning
 + diverse_candidate: the number of retrieved candidates: $k_d$
 + search_strategy: the search strategy of zero-shot in-context learning: Greedy, MC, Beam_Search, MCTS
-+ beam_search_expand_num: the expansion number of the beam search
-+ select_num: the number of node retained of the beam search
 + expansion_num: the expansion number of MCTS: $k_a$
 + iterative_num: the iteration number of MCTS
-+ uct: the type of UCT in the selection phase: random, uct, demo_uct
-+ w_exp: $w_a$
-+ c_exp: $w_Q$
 + use_cache: whether to use the cache strategy
-+ epsilon: $\epsilon$
 + aggregation: whether to use the aggregation strategy
 + calibration: whether to use the calibration strategy
+
+### Run
+
+You can get the results of our method by running the following command
+
+```bash
+bash run_dawn_icl.sh
+```

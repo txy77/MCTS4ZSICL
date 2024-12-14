@@ -1,0 +1,16 @@
+CUDA_VISIBLE_DEVICES=4,5 python src/main.py \
+    --device cuda:0 \
+    --model llama3.1-8b \
+    --dataset bbh \
+    --shot_num 3 \
+    --method Search \
+    --select_strategy diverse \
+    --diverse_candidate 30 \
+    --uct demo_uct \
+    --search_strategy MCTS \
+    --expansion_num 3 \
+    --iterative_num 5 \
+    --w_exp 5 \
+    --use_cache \
+    --aggregation \
+    --calibration
