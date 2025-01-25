@@ -1,4 +1,4 @@
-# DAWN-ICL: Strategic Planning of Problem-solving Trajectories for Zero-Shot In-Context Learning
+# DAWN-ICL: Strategic Planning of Problem-solving Trajectories for Zero-Shot In-Context Learning （NAACL 2025）
 
 ## 😀 Overview
 
